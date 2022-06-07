@@ -1,0 +1,151 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 16px;
+    
+}
+
+.entete {
+    margin:0;
+    padding: 0;
+    text-align: center; 
+	text-transform: uppercase;
+    font-weight: 700;
+    height: 200px;
+    background-color:black;
+    color: black;
+}
+.entete h1 {
+    margin: 0%;
+    padding: 70px;
+    color: white;
+    font-size:50px;
+    
+}
+
+.main{
+    
+    color: black;
+}
+.menu{
+    top: 10%;
+    text-align: center; 
+	background-color: rgb(37, 36, 36);
+	border-top: solid white 2px; 
+    line-height: 45px;
+    height:6%; 
+}
+.main ul{
+   
+    margin: 0;
+    padding: 0;
+    
+}
+.main .menu .menu_i{
+   
+    display: inline-block;
+    position: relative;
+    transition: 0.7s all;
+    
+}
+.main .menu .menu_i a{
+    
+    padding:12px 24px;
+    text-decoration:none;
+    color:white;
+    display: inline-block;
+	color: white;
+     
+}
+    
+
+.menu_i:hover{
+     background-color:#A94339;
+  
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+.title h1{
+    color: white;
+    font-size:50px;
+    font-family:monospace;
+}
+#acc{
+    margin-top: 5%;
+     text-align: center;
+     font-size:40px;
+}
+
+#section1{
+    margin-left:50px;
+    margin-right: 50px;
+    padding-top:30px;
+    font-family: monospace;
+    
+    
+}
+#section1 h2{
+    font-size:30px;
+    font-weight: 700;
+    margin-bottom:1rem;
+   color: black;
+   margin-top: 0%;
+}
+#section1 .contenu{
+    border:2px solid;
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+    border-radius:.5rem;
+}
+#section1 .contenu p{
+    font-size:20px;
+}
+
+#section2{
+    
+    margin-left:50px;
+    margin-right: 50px;
+    padding-top:30px;
+    font-family: monospace;
+}
+#section2 h2{
+    font-size:30px;
+    font-weight: 700;
+    margin-bottom:1rem;
+   color: black;
+   margin-top: 0%;
+}
+#section2 .contenu2{
+    
+    display:flex;
+    flex-direction: column;
+    padding:1rem;
+    
+}
+#section1 .contenu p{
+    font-size:20px;
+}
+button{
+  background-color:#A94339;
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+  
+}
+
+#btt:hover{
+    background-color:rgb(37, 36, 36);
+    transition: 0.7s all;
+}
